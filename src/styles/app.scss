@@ -1,0 +1,13 @@
+@mixin holat ($direction, $justify, $align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+header{
+    background-color: blueviolet;
+
+    @include holat(column, space-between, center);
+
+}
