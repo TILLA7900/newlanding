@@ -6,7 +6,9 @@
 }
 
 header{
-    background-color: blueviolet;
+    background-color: yellow;
+    hight:300px;
+    border-radius:60px;
 
     @include holat(column, space-between, center);
 
